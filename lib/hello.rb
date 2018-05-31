@@ -1,8 +1,7 @@
 def hello_t(names)
-    counter = 0
 
     if block_given?
-
+        counter = 0
         while counter < names.length
             yield names[counter]
             counter += 1
